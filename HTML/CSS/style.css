@@ -6,11 +6,11 @@
     
   }
   .logo{
-    width: 200px; /* Cambia el ancho de la imagen */
+    width: 10px; /* Cambia el ancho de la imagen */
     height: auto; /* Mantiene la proporción de aspecto */
-    border: 1px solid #ccc; /* Borde de 1 píxel sólido gris */
-    border-radius: 10px; /* Redondea las esquinas de la imagen */
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); 
+    border: 6px solid #ccc; /* Borde de 1 píxel sólido gris */
+    border-radius: 90px; /* Redondea las esquinas de la imagen */
+    box-shadow: 11px 6px 11px rgba(5, 5, 5, 0.5); 
     /* Sombra de 2px de desplazamiento en X y Y, 
     5px de difuminado y color negro con 50% de opacidad */
   }
