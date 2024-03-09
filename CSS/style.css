@@ -1,9 +1,16 @@
- /* Estilos CSS para centrar la imagen */
- .logo {
-    text-align: center;
-  }
-  /* Estilos CSS para el fondo gris */
-  .gris {
-    background-color: #f0f0f0;
-    padding: 20px;
-  }
+.tc{
+  background-color: #333; /* Color de fondo */
+  color: #fff; /* Color de texto */
+  padding: 20px; /* Espaciado interno */
+  text-align: center; /* Alineación del texto */
+  
+}
+
+
+
+
+
+
+
+
+
