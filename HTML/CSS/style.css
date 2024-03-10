@@ -1,16 +1,78 @@
-.tc{
-    background-color: #333; /* Color de fondo */
-    color: #fff; /* Color de texto */
-    padding: 20px; /* Espaciado interno */
-    text-align: center; /* Alineación del texto */
+/* ENCABEZADO */ 
     
-  }
-  .logo{
-    width: 10px; /* Cambia el ancho de la imagen */
-    height: auto; /* Mantiene la proporción de aspecto */
-    border: 6px solid #ccc; /* Borde de 1 píxel sólido gris */
-    border-radius: 90px; /* Redondea las esquinas de la imagen */
-    box-shadow: 11px 6px 11px rgba(5, 5, 5, 0.5); 
-    /* Sombra de 2px de desplazamiento en X y Y, 
-    5px de difuminado y color negro con 50% de opacidad */
-  }
+    /* posicion de encabezado */
+    .tc {
+      position: relative;
+    }
+    /* estilo de encabezado */
+    .tc {
+      background-color: #333; /* Color de fondo del encabezado */
+      padding: 10px; /* Espaciado interno del encabezado */
+      border-radius: 9%; /* redondeo de las esquinas */
+    }
+
+    /* posicion de logo */
+    .logo {
+      width: 100%; /* Ancho del logotipo */
+      height: auto; /* Altura automática para mantener la proporción */
+      object-fit: cover;
+    }
+    /* estilo de logo */
+    .logo {
+      border-radius: 9%; /* redondeo de las esquinas */
+    }
+
+    /* posicion de título */
+    .tin {
+      position: absolute;
+      margin-left: 9px; /* Margen izquierdo del título */
+      font-size: 80px; /* Tamaño de fuente del título */
+      top: 10%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    /* estilo de titulo */
+    .tin {
+      color: white; /* Color del texto en el encabezado */
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-style: italic;
+      text-align: center;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+
+/* PRIMERA SECCION */
+
+    .problematica {
+      background-color: #f2f2f2; /* Color de fondo de la sección */
+      padding: 90px; /* Espaciado interno de la sección */
+    }
+
+    /* Estilos para los contenedores internos */
+    .pr {
+      display: flex; /* Utiliza flexbox para alinear los elementos internos */
+      justify-content: center; /* Distribuye los elementos internos de manera uniforme */
+      margin-bottom: 80px; /* Espacio entre cada contenedor interno */
+    }
+    .cr {
+      display: flex; /* Utiliza flexbox para alinear los elementos internos */
+      justify-content: center; /* Distribuye los elementos internos de manera uniforme */
+      margin-bottom: 80px; /* Espacio entre cada contenedor interno */
+    }
+
+    /* Estilos para los títulos */
+    .problematica h2 {
+      color: #333; /* Color del texto del título */
+      font-size: 40px; /* Tamaño de fuente del título */
+      margin-bottom: 20px;
+      padding-bottom: 20px;
+      text-align: center;
+    }
+
+    /* Estilos para los párrafos */
+    .problematica p {
+      color: #666; /* Color del texto del párrafo */
+      font-size: 36px; /* Tamaño de fuente del párrafo */
+      margin-bottom: 20px;
+      padding-bottom: 20px;
+      text-align: right;
+    }
