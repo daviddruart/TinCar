@@ -18,7 +18,7 @@
   </head>
 
   <!-- cuerpo de pagina -->
-  <body>
+  <body class="body">
     
     <header class="tc">  
       <div>
@@ -32,50 +32,55 @@
       
     
     <section class="problematica">
-      <div>
+      <div class="problematica">
         <div class="pr">
-          <h2>Problematica a resolver</h2>
-          <p>
+          <h2 class="titulo-pr">Problematica a resolver</h2>
+          <p class="p-pr">
             Sabemos que el trafico de Bogota es poco fluido, esto se debe a diferentes factores, uno de estos factores y el cual 
-            nuestro <br> proyecto va enfocado es la invacion a la via publica por vehiculos mal parqeuados. 
+            nuestro proyecto va enfocado es la invacion a la via publica por vehiculos mal parqeuados. 
           </p>
         </div>
         <div class="cr">
-          <h2>¿Como se resolvera?</h2>
-          <p>
+          <h2 class="titulo-cr">¿Como se resolvera?</h2>
+          <p class="p-cr">
             Por medio de un software que implementaremos en una aplicacion movil llamada TinCar.  
           </p>
         </div>
       </div>
     </section>
-
     <section class="do">
-      <h2>Descripcion y Objetivos del proyecto </h2>
-      <ul>
-        <li><h2>Descripcion</h2>
-            <p>
-              El proyecto TinCar pretende proporcionar espacios seguros de aparcamiento a los conductores de diferentes tipos de vehículos,
-            y más concretamente se espera lograr un tráfico más fluido y armonioso en diferentes zonas de la ciudad de Bogotá. 
-            </p>
-        </li>
+      <div class="do">
+        <div class="titulo-do">
+          <h2 class="pp"><br><br><br>Descripcion<br><br> y <br><br>Objetivos del proyecto </h2>
+        </div>
+        <div class="contenido-do">
+          <ul>
+            <li><h2>Descripcion</h2>
+                <p>
+                  El proyecto TinCar pretende proporcionar espacios seguros de aparcamiento a los conductores de diferentes tipos de vehículos,
+                y más concretamente se espera lograr un tráfico más fluido y armonioso en diferentes zonas de la ciudad de Bogotá. 
+                </p>
+            </li>
 
-        <li><h2>Objetivo de negocio</h2>
-          <p>
-            Los objetivos comerciales de este proyecto son el apoyo directo de nuestro plan estratégico para hacer uso de parqueaderos 
-            compartidos y reducir la congestión vehicular por causa del mal parqueo. de TC y reducir los costos asociados con pérdidas y 
-            desperdicios.
-          </p>
-        </li>
+            <li><h2>Objetivo de negocio</h2>
+              <p>
+                Los objetivos comerciales de este proyecto son el apoyo directo de nuestro plan estratégico para hacer uso de parqueaderos 
+                compartidos y reducir la congestión vehicular por causa del mal parqueo. de TC y reducir los costos asociados con pérdidas y 
+                desperdicios.
+              </p>
+            </li>
 
-        <li><h2>Proposito</h2>
-          <p>
-            El proyecto TinCar nace ante la necesidad de mejorar la movilidad ante la presencia de innumerables trancones ocasionados 
-            por actores viales los cuales se suelen movilizar mayormente en vehículos como carros y motos. Los inversionistas recuperaran 
-            su dinero gracias a que nuestro software proporciona ganancias al buscar y encontrar garaje para los vehículos que lo están 
-            buscando  
-          </p>
-        </li>
-      </ul>
+            <li><h2>Proposito</h2>
+              <p>
+                El proyecto TinCar nace ante la necesidad de mejorar la movilidad ante la presencia de innumerables trancones ocasionados 
+                por actores viales los cuales se suelen movilizar mayormente en vehículos como carros y motos. Los inversionistas recuperaran 
+                su dinero gracias a que nuestro software proporciona ganancias al buscar y encontrar garaje para los vehículos que lo están 
+                buscando  
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
     </section>
 
     <section class="tecnology">
@@ -84,41 +89,53 @@
         Para el desarrollo y ejecucion de nuestra a plicacion y pagina web tendremos en cuenta:
       </p>
       <li>
-        Desarrollo nativo: se crean apps con lenguajes específicos para sistemas operativos móviles como Android o iOS. 
+        📲Desarrollo nativo: se crean apps con lenguajes específicos para sistemas operativos móviles como Android o iOS. 
         Por ejemplo, se puede usar Swift para iOS o Kotlin para Android.
       </li>
       <li>
-        Desarrollo híbrido: se crean apps que se pueden ejecutar en múltiples plataformas con un solo código fuente. Por ejemplo, 
+        🖥️Desarrollo híbrido: se crean apps que se pueden ejecutar en múltiples plataformas con un solo código fuente. Por ejemplo, 
         se puede usar Ionic, Flutter, React Native o Xamarin
       </li>
       <li>
-        Desarrollo web progresivo: se crean apps que se comportan como una app móvil, pero se acceden desde un navegador web. 
+        📎Desarrollo web progresivo: se crean apps que se comportan como una app móvil, pero se acceden desde un navegador web. 
         Por ejemplo, se puede usar HTML, CSS y JavaScript
       </li>
     </section>
 
-    <footer>
-      <div>
-        <h3>Contacto</h3>
-        <p>Correo: tincarcompanysoft@gmail.com</p>
+    <footer class="footer-section"><!--  -->
+      <div class="container">
+          <div class="footer-e-mail">
+            <div class="e-mail">
+              <h4><br>E-mail</h4>
+              <p>tincarcompanysoft@gmail.com</p>
+            </div>                         
+          </div>
+          <div class="footer-links">
+              <div class="footer-primero">
+                <div class="footer-titulo">
+                    <h3>Servicio al usuario<br><br></h3>
+                </div>
+                <div class="lista">
+                  <ul>
+                      <li><a href="#">Terminos y Condiciones</a></li>
+                      <li><a href="#">Contacto</a></li>
+                      <li><a href="#">Trabaja con nosottros</a></li>
+                      <li><a href="#">Nuestras sedes</a></li>
+                      <li><a href="#">Registrate</a></li>
+                      <li><a href="#">Politica de proteccion de datos</a></li>
+                  </ul>
+                </div>
+              </div>
+          </div>
+          <div class="copyright">
+            <div class="container">
+                <div class="copyright-text">
+                    <p><br><br><br><br><br><br>Copyright &copy; 2018, All Right Reserved <a href="https://codepen.io/anupkumar92/">Anup</a></p>
+                </div>
+            </div>
+          </div>
       </div>
-      <div>
-        <h3>Redes Sociales</h3>
-        <p>Síguenos en:</p>
-        <ul>
-          <li>Facebook</li>
-          <li>Twitter</li>
-          <li>Instagram</li>
-        </ul>
-      </div>
-      <div>
-        <h3>Enlaces Útiles</h3>
-        <ul>
-          <li><a href="#">Términos y Condiciones</a></li>
-          <li><a href="#">Política de Privacidad</a></li>
-          <li><a href="#">FAQs</a></li>
-        </ul>
-      </div>
-    </footer>
+   </footer>
+    
   </body>
 </html>

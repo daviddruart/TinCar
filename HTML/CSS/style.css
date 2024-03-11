@@ -1,3 +1,9 @@
+
+/* CUERPO */
+    .body {
+      background-color: #333; /* Cambiar el color de fondo del cuerpo de la página */
+    }
+
 /* ENCABEZADO */ 
     
     /* posicion de encabezado */
@@ -8,7 +14,8 @@
     .tc {
       background-color: #333; /* Color de fondo del encabezado */
       padding: 10px; /* Espaciado interno del encabezado */
-      border-radius: 9%; /* redondeo de las esquinas */
+      border-top-left-radius: 50px; /* Redondea la esquina superior izquierda */
+      border-bottom-right-radius: 70px; /* Redondea la esquina inferior derecha */ /* redondeo de las esquinas */
     }
     
 
@@ -20,7 +27,8 @@
     }
     /* estilo de logo */
     .logo {
-      border-radius: 9%; /* redondeo de las esquinas */
+      border-top-left-radius: 50px; /* Redondea la esquina superior izquierda */
+      border-bottom-right-radius: 70px; /* Redondea la esquina inferior derecha */; /* redondeo de las esquinas */
     }
 
     /* posicion de título */
@@ -41,50 +49,77 @@
       text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     }
 
-/* PRIMERA SECCION */
+/* SECCION PROBLEMATICA */
 
     .problematica {
       background-color: #f2f2f2; /* Color de fondo de la sección */
-      padding: 90px; /* Espaciado interno de la sección */
+      padding: 35px; /* Espaciado interno de la sección */
+      height: 600px;
+      border-top-left-radius: 50px; /* Redondea la esquina superior izquierda */
+      border-bottom-right-radius: 70px;
     }
-
-    /* Estilos para los contenedores internos */
-    .pr {
-      display: flex; /* Utiliza flexbox para alinear los elementos internos */
-      justify-content: center; /* Distribuye los elementos internos de manera uniforme */
-      margin-bottom: 80px; /* Espacio entre cada contenedor interno */
-    }
-    .cr {
-      display: flex; /* Utiliza flexbox para alinear los elementos internos */
-      justify-content: center; /* Distribuye los elementos internos de manera uniforme */
-      margin-bottom: 80px; /* Espacio entre cada contenedor interno */
-    }
-
-    /* Estilos para los títulos */
-    .problematica h2 {
-      color: #333; /* Color del texto del título */
-      font-size: 40px; /* Tamaño de fuente del título */
-      margin-bottom: 20px;
+    /* titulos */
+    .titulo-pr {
+      color: #333; 
+      font-size: 50px; 
+      margin-bottom: 10px;
       padding-bottom: 20px;
-      text-align: center;
+      text-align: left;
     }
-
-    /* Estilos para los párrafos */
-    .problematica p {
-      color: #666; /* Color del texto del párrafo */
-      font-size: 36px; /* Tamaño de fuente del párrafo */
+    .titulo-cr {
+      color: #333; 
+      font-size: 50px; 
+      margin-bottom: 10px;
+      padding-bottom: 20px;
+      text-align: left;
+    }
+    /* parrafos */
+    .p-pr {
+      color: #666;
+      font-size: 40px;
       margin-bottom: 20px;
       padding-bottom: 20px;
       text-align: right;
+
     }
+    .p-cr {
+      color: #666;
+      font-size: 40px;
+      margin-bottom: 20px;
+      padding-bottom: 20px;
+      text-align: right;
+    }    
 
 /* SEGUNDA SECCION */
-    
+      /* division de espacios */
       .do {
         background-color: #f2f2f2; /* Color de fondo de la sección */
-        padding: 90px; /* Espaciado interno de la sección */
+      padding: 90px; /* Espaciado interno de la sección */
+        
       }
-    
+
+      .titulo-do {
+        display: flex; /* Utiliza flexbox para alinear los elementos internos */
+        justify-content: center; /* Distribuye los elementos internos de manera uniforme */
+        margin-bottom: 80px; /* Espacio entre cada contenedor interno */
+        float: left;
+        height: 100vh;
+        vertical-align: middle;
+      }
+
+      .contenido-do {
+        float: right; /* Ubica el div a la derecha */
+        width: 50%;
+      }
+
+      /* estilos de contenido */      
+      .pp {
+        color: #333; /* Color del texto del título */
+        font-size: 40px; /* Tamaño de fuente del título */
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+        text-align: center;
+      }
 
       /* Estilos para el título */
       .do h2 {
@@ -108,9 +143,108 @@
       /* Estilos para los subtítulos en cada elemento de la lista */
       .do li h2 {
         color: #666; /* Color del texto */
+        font-size: 36px; /* Tamaño de fuente del párrafo */
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+        text-align: right;
       }
 
       /* Estilos para los párrafos en cada elemento de la lista */
       .do li p {
-        color: #888; /* Color del texto */
+       /* Color del texto */
+      color: #666; /* Color del texto del párrafo */
+      font-size: 36px; /* Tamaño de fuente del párrafo */
+      margin-bottom: 20px;
+      padding-bottom: 20px;
       }
+
+/* TERCERA SECCION */
+
+      .tecnology {
+        padding: 90px; /* Espaciado interno de la sección */
+        float: center;
+      }
+      
+      .tecnology h2 {
+        color: #f2f2f2; /* Color del texto */
+        font-size: 36px;
+        padding-bottom: 20px;
+        text-align: center;
+      }
+
+      .tecnology p {
+        color: #666;
+        font-size: 36px;
+        padding-bottom: 20px;
+        text-align: center;
+      }
+
+      .tecnology li {
+        color: #666;
+        font-size: 36px;
+        padding-bottom: 20px;
+        text-align: left;
+        margin-bottom: 40px;
+        padding-bottom: 40px;
+      }
+
+/* FOOTER */
+    
+    .footer-section {
+      background-color: #dba22f;
+      position: relative;
+    }
+    .footer-e-mail {
+      border-bottom: 2px solid #373636;
+      font-size: 25px;
+      padding-bottom: 20px;
+    }
+    .e-mail {
+      padding-left: 15px;
+      text-align: center;
+    }
+
+    /* links */
+    .footer-titulo h3 {
+      color: #fff;
+      font-size: 20px;     
+      position: relative;
+      margin-left: 90px;
+    }
+    .single-cta i {
+      color: #ff1414;
+      float: left;
+      margin-top: 20px;
+    }
+
+    /* lista */
+    
+    .footer-primero ul li {
+      display: inline-block;
+      float: left;
+      width: 50%;
+      margin-bottom: 15px;
+    }
+    .lista {
+      background-color: #dba22f;
+      height:110px;
+      color: #666;
+      font-size: 18px;
+      padding-bottom: 20px;
+      text-align: left;
+    }
+
+    /* copyright */
+    .copyright {
+      background: #202020;
+      padding: 25px 0;
+    }
+    .copyright-text p {
+      margin: 0;
+      font-size: 14px;
+      color: #878787;
+      text-align: center;
+    }
+    .copyright-text p a{
+      color: #ff5e14;
+    }
