@@ -52,31 +52,33 @@
 /* SECCION PROBLEMATICA */
 
     .problematica {
-      background-color: #f2f2f2; /* Color de fondo de la sección */
-      padding: 35px; /* Espaciado interno de la sección */
+      background-color: #f2f2f2; 
+      padding: 35px;
       height: 600px;
-      border-top-left-radius: 50px; /* Redondea la esquina superior izquierda */
+      border-top-left-radius: 50px;
       border-bottom-right-radius: 70px;
     }
     /* titulos */
     .titulo-pr {
       color: #333; 
-      font-size: 50px; 
+      font-size: 45px; 
       margin-bottom: 10px;
       padding-bottom: 20px;
       text-align: left;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     }
     .titulo-cr {
       color: #333; 
-      font-size: 50px; 
+      font-size: 45px; 
       margin-bottom: 10px;
       padding-bottom: 20px;
       text-align: left;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     }
     /* parrafos */
     .p-pr {
       color: #666;
-      font-size: 40px;
+      font-size: 38px;
       margin-bottom: 20px;
       padding-bottom: 20px;
       text-align: right;
@@ -84,17 +86,20 @@
     }
     .p-cr {
       color: #666;
-      font-size: 40px;
+      font-size: 38px;
       margin-bottom: 20px;
-      padding-bottom: 20px;
+      padding-bottom: -20px;
       text-align: right;
     }    
 
 /* SEGUNDA SECCION */
       /* division de espacios */
       .do {
-        background-color: #f2f2f2; /* Color de fondo de la sección */
-      padding: 90px; /* Espaciado interno de la sección */
+      background-color: #f2f2f2; 
+      padding: 35px;
+      height: 1050px;
+      border-top-left-radius: 50px;
+      border-bottom-right-radius: 70px;
         
       }
 
@@ -119,6 +124,7 @@
         margin-bottom: 20px;
         padding-bottom: 20px;
         text-align: center;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
       }
 
       /* Estilos para el título */
@@ -128,6 +134,7 @@
         margin-bottom: 20px;
         padding-bottom: 20px;
         text-align: center;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
       }
 
       /* Estilos para la lista */
@@ -143,7 +150,7 @@
       /* Estilos para los subtítulos en cada elemento de la lista */
       .do li h2 {
         color: #666; /* Color del texto */
-        font-size: 36px; /* Tamaño de fuente del párrafo */
+        font-size: 34px; /* Tamaño de fuente del párrafo */
         margin-bottom: 20px;
         padding-bottom: 20px;
         text-align: right;
@@ -153,7 +160,7 @@
       .do li p {
        /* Color del texto */
       color: #666; /* Color del texto del párrafo */
-      font-size: 36px; /* Tamaño de fuente del párrafo */
+      font-size: 30px; /* Tamaño de fuente del párrafo */
       margin-bottom: 20px;
       padding-bottom: 20px;
       }
@@ -170,6 +177,7 @@
         font-size: 36px;
         padding-bottom: 20px;
         text-align: center;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
       }
 
       .tecnology p {
@@ -198,6 +206,7 @@
       border-bottom: 2px solid #373636;
       font-size: 25px;
       padding-bottom: 20px;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     }
     .e-mail {
       padding-left: 15px;
@@ -210,11 +219,7 @@
       font-size: 20px;     
       position: relative;
       margin-left: 90px;
-    }
-    .single-cta i {
-      color: #ff1414;
-      float: left;
-      margin-top: 20px;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     }
 
     /* lista */
@@ -238,6 +243,7 @@
     .copyright {
       background: #202020;
       padding: 25px 0;
+      height:19px;
     }
     .copyright-text p {
       margin: 0;
