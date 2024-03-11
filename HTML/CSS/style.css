@@ -73,7 +73,7 @@
       margin-bottom: 10px;
       padding-bottom: 20px;
       text-align: left;
-      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+       text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     }
     /* parrafos */
     .p-pr {
@@ -226,9 +226,9 @@
     
     .footer-primero ul li {
       display: inline-block;
+      float: left;
       width: 50%;
       margin-bottom: 15px;
-      float: left;
     }
     .lista {
       background-color: #dba22f;
