@@ -226,9 +226,9 @@
     
     .footer-primero ul li {
       display: inline-block;
-      float: left;
       width: 50%;
       margin-bottom: 15px;
+      float: left;
     }
     .lista {
       background-color: #dba22f;
