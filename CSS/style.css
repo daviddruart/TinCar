@@ -2,6 +2,7 @@
 /* CUERPO */
     .body {
       background-color: #333; /* Cambiar el color de fondo del cuerpo de la página */
+      display: flex;
     }
 
 /* ENCABEZADO */ 
