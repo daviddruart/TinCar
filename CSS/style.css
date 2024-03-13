@@ -5,7 +5,7 @@
     }
     @media only screen and (max-width: 600px) {
       .body {
-          font-size: 15px;
+          font-size: 18px;
         }
         }
 
@@ -55,7 +55,7 @@
     }
     @media only screen and (max-width: 600px) {
       .tin {
-          font-size: 15px;
+          font-size: 18px;
         }
         }
 
@@ -79,7 +79,7 @@
     }
     @media only screen and (max-width: 600px) {
       .titulo-pr {
-          font-size: 15px;
+          font-size: 18px;
         }
         }
     .titulo-cr {
@@ -92,7 +92,7 @@
     }
     @media only screen and (max-width: 600px) {
       .titulo-cr {
-          font-size: 15px;
+          font-size: 18px;
         }
         }
     /* parrafos */
@@ -102,15 +102,24 @@
       margin-bottom: 20px;
       padding-bottom: 20px;
       text-align: right;
-
     }
+    @media only screen and (max-width: 600px) {
+      .p-pr {
+          font-size: 18px;
+        }
+        }
     .p-cr {
       color: #666;
       font-size: 38px;
       margin-bottom: 20px;
       padding-bottom: -20px;
       text-align: right;
-    }    
+    }   
+    @media only screen and (max-width: 600px) {
+      .p-cr {
+          font-size: 18px;
+        }
+        } 
 
 /* SEGUNDA SECCION */
       /* division de espacios */
@@ -131,6 +140,16 @@
         height: 100vh;
         vertical-align: middle;
       }
+      @media only screen and (max-width: 600px) {
+        .pp {
+            font-size: 18px;
+          }
+          } 
+      @media only screen and (max-width: 600px) {
+        .h2.p {
+           font-size: 18px;
+          }
+          } 
 
       .contenido-do {
         float: right; /* Ubica el div a la derecha */
