@@ -5,8 +5,15 @@
     }
     @media only screen and (max-width: 600px) {
       .body {
-          font-size: 14px;
+          font-size: 15px;
       }
+      .tin {
+        font-size: 15px;
+      }
+      .titulo-pr {
+        font-size: 15px;
+      }
+
   }
 
 /* ENCABEZADO */ 
