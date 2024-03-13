@@ -44,8 +44,6 @@
       top: 10%;
       left: 50%;
       transform: translate(-50%, -50%);
-      font-size: 1.2em; /* Tamaño de fuente relativo */
-      line-height: 1.4;
     }
     /* estilo de titulo */
     .tin {
@@ -73,8 +71,6 @@
       padding-bottom: 20px;
       text-align: left;
       text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-      font-size: 1.2em;
-      line-height: 1.4;
     }
     .titulo-cr {
       color: #333; 
@@ -82,9 +78,7 @@
       margin-bottom: 10px;
       padding-bottom: 20px;
       text-align: left;
-      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-      font-size: 1.2em;
-      line-height: 1.4;
+       text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     }
     /* parrafos */
     .p-pr {
@@ -93,8 +87,6 @@
       margin-bottom: 20px;
       padding-bottom: 20px;
       text-align: right;
-      font-size: 1.2em;
-      line-height: 1.4;
 
     }
     .p-cr {
@@ -103,8 +95,6 @@
       margin-bottom: 20px;
       padding-bottom: -20px;
       text-align: right;
-      font-size: 1.2em;
-      line-height: 1.4;
     }    
 
 /* SEGUNDA SECCION */
