@@ -53,6 +53,11 @@
       text-align: center;
       text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     }
+    @media only screen and (max-width: 600px) {
+      .tin {
+          font-size: 15px;
+        }
+        }
 
 /* SECCION PROBLEMATICA */
 
@@ -72,6 +77,11 @@
       text-align: left;
       text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     }
+    @media only screen and (max-width: 600px) {
+      .titulo-pr {
+          font-size: 15px;
+        }
+        }
     .titulo-cr {
       color: #333; 
       font-size: 45px; 
@@ -80,6 +90,11 @@
       text-align: left;
        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     }
+    @media only screen and (max-width: 600px) {
+      .titulo-cr {
+          font-size: 15px;
+        }
+        }
     /* parrafos */
     .p-pr {
       color: #666;
