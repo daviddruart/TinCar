@@ -2,8 +2,12 @@
 /* CUERPO */
     .body {
       background-color: #333; /* Cambiar el color de fondo del cuerpo de la página */
-      display: flex;
     }
+    @media only screen and (max-width: 600px) {
+      .body {
+          font-size: 14px;
+      }
+  }
 
 /* ENCABEZADO */ 
     
