@@ -143,6 +143,7 @@
       @media only screen and (max-width: 600px) {
         .titulo-do h2 {
             font-size: 18px;
+            float:right;
           }
           } 
       @media only screen and (max-width: 600px) {
