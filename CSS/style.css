@@ -5,7 +5,7 @@
     }
     @media only screen and (max-width: 600px) {
       .body {
-          font-size: 18px;
+          font-size: 16px;
         }
         }
 
@@ -146,11 +146,15 @@
           }
           } 
       @media only screen and (max-width: 600px) {
-        .h2.p {
+        .contenido-do ul li h2 {
            font-size: 18px;
           }
           } 
-
+      @media only screen and (max-width: 600px) {
+        .contenido-do ul li p {
+          font-size: 18px;
+          }
+          } 
       .contenido-do {
         float: right; /* Ubica el div a la derecha */
         width: 50%;
